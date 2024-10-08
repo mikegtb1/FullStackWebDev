@@ -1,0 +1,13 @@
+$bg-color: #333333;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+
+}
+
+* {
+    box-sizing: border-box;
+    background-color: $bg-color;
+
+}
