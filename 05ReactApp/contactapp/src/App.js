@@ -1,4 +1,14 @@
-import logo from './logo.svg';
+import List from './List2';
+function App() {
+  return <List />;
+}
+export default App;
+
+
+
+
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; */
