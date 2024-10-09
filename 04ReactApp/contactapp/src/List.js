@@ -35,7 +35,8 @@ function List() {
     }
 
     async function handleSave(contact) {
-            const id = contacts.length + 1;
+            var contacts2 = contacts;
+            const id = contacts2[contacts2.length - 1].id + 1;
             setContacts((prevContacts) => [...prevContacts, { ...contact, id }]);
         }
         
